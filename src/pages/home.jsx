@@ -53,7 +53,7 @@ function HomePage() {
             </a>
             <a
               className="dle-card chronophoto"
-              href="https://factle.app/"
+              href="https://www.chronophoto.app/daily.html"
               target="_blank"
             >
               <h1>CHRONOPHOTO</h1>
@@ -68,7 +68,7 @@ function HomePage() {
             </a>
             <a
               className="dle-card tradle"
-              href="https://www.timeguessr.com/"
+              href="https://games.oec.world/en/tradle/"
               target="_blank"
             >
               <img className="tradle-ship" src={tradleShip}></img>

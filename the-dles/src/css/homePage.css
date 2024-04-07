@@ -1,0 +1,267 @@
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.home-page-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.home-page-container .home-page-header {
+  display: flex;
+  background-color: #0f4c75;
+  flex: 0 1 25vh;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 3px solid black;
+}
+
+.header-text {
+  margin: auto;
+  color: beige;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 8vh;
+  text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+.home-page-container .main-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0; /* Allows the container to grow with content */
+}
+
+.dles-container {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.dle-card {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #1b262c;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  min-height: 350px; /* Example: Change to a fixed height or use min-height */
+  margin: 5vh;
+}
+
+.wordle {
+  background-color: #e3e3e1;
+}
+
+.globle {
+  background: radial-gradient(
+    circle,
+    rgba(78, 164, 193, 1) 12%,
+    rgba(99, 189, 219, 1) 43%,
+    rgba(206, 237, 238, 1) 97%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  max-width: 400px;
+  max-height: 350px; /* Example: Change to a fixed height or use min-height */
+}
+
+.cloudpic {
+  position: absolute;
+  max-height: 50%;
+  max-width: 50%;
+  object-fit: cover;
+  filter: blur(1.5px);
+}
+
+.planetpic {
+  position: absolute;
+  max-height: 10%;
+  max-width: 10%;
+  margin-bottom: 3%;
+}
+
+.globle-text {
+  margin-top: 35%;
+  z-index: 100;
+  text-decoration: none;
+  color: black;
+}
+
+.factle {
+  background-color: black;
+  color: white;
+  font-family: "Hepta Slab";
+  font-weight: 200;
+  font-size: 2.5vh;
+}
+
+.guess-the-game {
+  background-color: #0f172a;
+  color: white;
+  border-color: #059669;
+  max-width: 400px;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.gtgpic {
+  margin-top: 120px;
+  max-height: 25%;
+  max-width: 25%;
+}
+
+.shroompic {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  max-height: 30%;
+  max-width: 30%;
+  left: 150px;
+  transform: rotate(-40deg);
+  filter: contrast(60%);
+  filter: blur(1.8px);
+}
+
+.chronophoto {
+  background-color: black;
+  max-width: 400px;
+  max-height: 350px;
+  color: black;
+  text-shadow: 1px 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff;
+  overflow: hidden;
+}
+
+.chronopic {
+  max-height: 120%;
+  max-width: 120%;
+}
+
+.timeguessr {
+  background-color: #eae8dd;
+  max-width: 400px;
+  max-height: 350px;
+}
+
+.timeguessrpic {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.tradle {
+  background-color: #f3fafc;
+  max-width: 400px;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.tradle-ship {
+  position: relative;
+  max-height: 80%;
+  max-width: 80%;
+  right: 40px;
+  bottom: -10px;
+}
+
+.tradle-logo {
+  position: relative;
+  bottom: 100px;
+  left: 60px;
+  max-height: 80%;
+  max-width: 80%;
+  transform: rotate(-45deg);
+  filter: contrast(140%);
+  filter: saturate(2.5);
+}
+
+.spotle {
+  background: linear-gradient(137.28deg, #677272 -1.33%, #121212 36.62%);
+  color: black;
+  max-width: 400px;
+  max-height: 350px;
+  position: relative;
+}
+
+.white-circle {
+  display: flex;
+  margin-top: 80px;
+  height: 150px;
+  width: 155px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotle-text {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.arrowpic {
+  position: relative;
+  right: 130px;
+  bottom: 50px;
+  max-height: 30%;
+  max-width: 30%;
+  filter: invert(90%);
+  transform: rotate(150deg);
+}
+
+.play-text {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.836);
+  top: 250px;
+  left: 115px;
+  transform: rotate(-20deg);
+  font-family: "Kalam", cursive;
+  font-size: 35px;
+}
+
+.gamedle:hover {
+  cursor: url("../Assets/gamedle-cursor.png"), pointer;
+}
+
+.gamedle {
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 98%);
+  max-width: 400px;
+  max-height: 350px;
+  background-image: url("../Assets/gamedle-background.webp");
+}
+
+.gamedle-text {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 50px;
+  /* text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000,
+    2px -2px 0 #000; */
+  background: linear-gradient(
+    180deg,
+    rgba(215, 145, 92, 1) 44%,
+    rgba(194, 89, 8, 1) 49%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

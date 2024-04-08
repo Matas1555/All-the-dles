@@ -9,6 +9,11 @@ import timeguessrPic from "../Assets/timeguesrr-logo.svg";
 import tradlePic from "../Assets/tradle-logo.png";
 import tradleShip from "../Assets/tradle-ship.png";
 import arrow from "../Assets/drawn-arrow.png";
+import paperPlane from "../Assets/paper-plane.png";
+import dailyDozenPic from "../Assets/daily-dozen-logo.webp";
+import dailyDozenBackgroundPic from "../Assets/daily-dozen-background.webp";
+import bandlePic from "../Assets/bandle-logo.png";
+import connectionsPic from "../Assets/connections.png";
 
 function HomePage() {
   return (
@@ -83,7 +88,7 @@ function HomePage() {
                 <h1 className="spotle-text">spotle.</h1>
               </div>
               <img className="arrowpic" src={arrow}></img>
-              <h1 className="play-text">Play!</h1>
+              <h1 className="play-text">Guess the artist!</h1>
             </a>
             <a
               className="dle-card factle gamedle"
@@ -91,6 +96,58 @@ function HomePage() {
               target="_blank"
             >
               <h1 className="gamedle-text">GAMEDLE</h1>
+            </a>
+            <a
+              className="dle-card travle"
+              href="https://imois.in/games/travle/"
+              target="_blank"
+            >
+              <span className="compass-icon">
+                <i class="fa-regular fa-compass fa-2xl"></i>
+              </span>
+              <h1>travle</h1>
+            </a>
+            <a
+              className="dle-card daily-dozen"
+              href="https://dailydozentrivia.com/"
+              target="_blank"
+            >
+              <img className="daily-dozen-logo" src={dailyDozenPic}></img>
+              <img
+                className="daily-dozen-background"
+                src={dailyDozenBackgroundPic}
+              ></img>
+            </a>
+            <a
+              className="dle-card framed"
+              href="https://framed.wtf/"
+              target="_blank"
+            >
+              <h1 className="framed-text">Framed</h1>
+            </a>
+            <a
+              className="dle-card bandle"
+              href="https://bandle.app/"
+              target="_blank"
+            >
+              <img className="bandle-logo" src={bandlePic}></img>
+              <h1 className="bandle-text">andle</h1>
+            </a>
+            <a
+              className="dle-card connections"
+              href="https://www.nytimes.com/games/connections"
+              target="_blank"
+            >
+              <img src={connectionsPic}></img>
+            </a>
+            <a
+              className="dle-card spellcheck"
+              href="https://spellcheckgame.com/"
+              target="_blank"
+            >
+              <div className="spellcheck-boxed">
+                <h1>Spellcheck</h1>
+              </div>
             </a>
           </div>
         </div>

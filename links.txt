@@ -14,3 +14,12 @@ https://dailydozentrivia.com/
 https://bandle.app/
 https://www.nytimes.com/games/connections
 http://spellcheckgame.com/
+
+TODO:
+Header animation of falling dle icons,
+dle-card animations, extra styling
+cards change style after the dle site has been visited for the day
+filter by the style of the dle (gaming, words, geography etc.)
+row slider (how many cards in one row)
+add a cursor background animation (https://www.youtube.com/watch?v=kySGqoU7X-s)
+add a clock to chronophoto

@@ -70,6 +70,7 @@ body {
   min-width: 400px;
   min-height: 350px; /* Example: Change to a fixed height or use min-height */
   margin: 5vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 98%);
 }
 
 .wordle {
@@ -234,9 +235,9 @@ body {
 .play-text {
   position: absolute;
   color: rgba(255, 255, 255, 0.836);
-  top: 250px;
-  left: 115px;
-  transform: rotate(-20deg);
+  top: 215px;
+  left: 100px;
+  transform: rotate(-15deg);
   font-family: "Kalam", cursive;
   font-size: 35px;
 }
@@ -246,7 +247,7 @@ body {
 }
 
 .gamedle {
-  box-shadow: 0px 2px 4px rgb(0 0 0 / 98%);
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 98%);
   max-width: 400px;
   max-height: 350px;
   background-image: url("../Assets/gamedle-background.webp");
@@ -265,3 +266,103 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.travle {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #32302f;
+  color: #d4be98;
+  font-weight: 50;
+  font-size: 1.4em;
+  background-image: url("../Assets/travle-map.png");
+}
+
+.compass-icon {
+  width: 60px;
+}
+
+.framed {
+  background-color: #0f172a;
+}
+
+.framed-text {
+  color: white;
+  font-size: 60px;
+  font-family: "Anton";
+  padding: 5px 20px 5px 20px;
+  letter-spacing: -0.025em;
+  font-weight: 200;
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  border-radius: 0.4rem;
+}
+
+.daily-dozen {
+  position: relative;
+  overflow: hidden;
+}
+
+.daily-dozen-background {
+  position: absolute;
+  max-width: 650px;
+}
+
+.daily-dozen-logo {
+  position: relative;
+  z-index: 100;
+  bottom: 30px;
+  left: 20px;
+  max-width: 300px;
+}
+
+.bandle {
+  display: flex;
+  flex-direction: row;
+  background-color: #e3cebe;
+}
+
+.bandle-logo {
+  position: relative;
+  right: 10px;
+}
+
+.bandle-text {
+  position: relative;
+  color: #97111d;
+  font-size: 60px;
+  font-family: "Lilita One", sans-serif;
+  top: 40px;
+  right: 40px;
+}
+
+.connections {
+  background-color: #b3a7fe;
+}
+
+.spellcheck {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  border: 1px black solid;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 0px black;
+}
+
+.spellcheck:hover {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  border: 1px black solid;
+  background-color: white;
+  border-radius: 30px;
+}
+
+/* .spellcheck-boxed {
+  border: 1px black solid;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px black;
+} */

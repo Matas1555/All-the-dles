@@ -20,7 +20,16 @@ function HomePage() {
     <>
       <div className="home-page-container">
         <div className="home-page-header">
-          <h1 className="header-text">ALL THE DLES!</h1>
+          <div className="header-background">
+            <span className="falling-item"></span>
+            <span className="falling-item"></span>
+            <span className="falling-item"></span>
+            <span className="falling-item"></span>
+            <span className="falling-item"></span>
+          </div>
+          <div className="header-text">
+            <h1>ALL THE DLES!</h1>
+          </div>
         </div>
         <div className="main-container">
           <div className="dles-container">

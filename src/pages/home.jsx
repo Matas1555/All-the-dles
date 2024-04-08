@@ -26,6 +26,7 @@ function HomePage() {
             <span className="falling-item"></span>
             <span className="falling-item"></span>
             <span className="falling-item"></span>
+            <span className="falling-item"></span>
           </div>
           <div className="header-text">
             <h1>ALL THE DLES!</h1>
@@ -54,7 +55,7 @@ function HomePage() {
               href="https://factle.app/"
               target="_blank"
             >
-              <h1>Factle</h1>
+              <h1 className="factle-text">Factle</h1>
             </a>
             <a
               className="dle-card guess-the-game"

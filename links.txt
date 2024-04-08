@@ -16,8 +16,8 @@ https://www.nytimes.com/games/connections
 http://spellcheckgame.com/
 
 TODO:
-Header animation of falling dle icons,
-dle-card animations, extra styling
+x Header animation of falling dle icons,
+x dle-card animations, extra styling
 cards change style after the dle site has been visited for the day
 filter by the style of the dle (gaming, words, geography etc.)
 row slider (how many cards in one row)
